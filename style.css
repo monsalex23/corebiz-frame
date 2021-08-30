@@ -1,0 +1,119 @@
+*{
+    font-family: Circular Std Medium,sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 10%;
+    justify-content: center;
+}
+
+.text p {
+    color: black;
+}
+
+.framework {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    position: relative;
+    color:black;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem; 
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+p {
+    position: absolute;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: white;
+}
+.circle p:first-child {
+    top: 5px;
+}
+
+.circle p:last-child {
+    bottom: 5px;
+}
+
+.circle--level-one {
+    width: 60rem;
+    height: 60rem;
+    background-color: #b7b7b7;
+    position: relative; 
+    padding: 1.5rem;
+    
+}
+
+.circle--level-one:hover {
+    background-color: #de702f;
+}
+
+.circle--level-two{
+    width: 50rem;
+    height: 50rem;
+    background-color: #999;
+    transform: rotate(-90deg);
+}
+
+
+.circle--level-three {
+    width: 40rem;
+    height: 40rem;
+    background-color: #666;
+}
+
+.circle--level-three:hover {
+    background-color: #953764;
+}
+
+.circle--level-four {
+    width: 30rem;
+    height: 30rem;
+    background-color: #434343;
+    transform: rotate(-90deg);
+}
+
+.circle--level-four:hover {
+    background-color: #2680eb;
+}
+
+.circle--level-five{
+    width: 20rem;
+    height: 20rem;
+    background-color: #000;
+}
+
+.circle--level-five:hover{
+    background-color: #f1c233;
+}
+.circle--level-six {
+    width: 10rem;
+    height: 10rem;
+    background-color: #f1c233;
+}
+
+.circle--level-six p {
+    color: black;
+    text-align: center;
+   
+}

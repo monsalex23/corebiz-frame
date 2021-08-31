@@ -38,7 +38,7 @@
     text-align: center;
     padding: 1.5rem; 
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 p {
@@ -56,8 +56,8 @@ p {
 }
 
 .circle--level-one {
-    width: 55rem;
-    height: 55rem;
+    width: 35rem;
+    height: 35rem;
     background-color: #b7b7b7;
     position: relative; 
     padding: 1.5rem;
@@ -69,16 +69,16 @@ p {
 }
 
 .circle--level-two{
-    width: 45rem;
-    height: 45rem;
+    width: 29rem;
+    height: 29rem;
     background-color: #999;
     transform: rotate(-90deg);
 }
 
 
 .circle--level-three {
-    width: 35rem;
-    height: 35rem;
+    width: 23rem;
+    height: 23rem;
     background-color: #666;
 }
 
@@ -87,8 +87,8 @@ p {
 }
 
 .circle--level-four {
-    width: 25rem;
-    height: 25rem;
+    width: 17rem;
+    height: 17rem;
     background-color: #434343;
     transform: rotate(-90deg);
 }
@@ -98,8 +98,8 @@ p {
 }
 
 .circle--level-five{
-    width: 15rem;
-    height: 15rem;
+    width: 11rem;
+    height: 11rem;
     background-color: #000;
 }
 

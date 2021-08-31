@@ -9,11 +9,19 @@
 
 .text{
     width: 50%;
-    justify-content: center;
+    height:50%
+    
 }
 
 .text p {
     color: black;
+}
+.lista{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    text-align: center;
 }
 
 .framework {

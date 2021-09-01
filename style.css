@@ -124,12 +124,14 @@ p {
 }
 
 .lista{
-    padding-left: 5%; 
+    padding-left: 5%;
+    margin-top: 0;
 }
 .business{
     color: #f1c233;
 }
 .lista p{
+    margin-top:0;
     color: black;
     font-size:  1rem;
     line-height: 2;
